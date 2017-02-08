@@ -13,6 +13,7 @@
 		64607B9D1E4B58D800B5D17E /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64607B9B1E4B58D800B5D17E /* ToDo.xcdatamodeld */; };
 		64607B9F1E4B58D800B5D17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64607B9E1E4B58D800B5D17E /* Assets.xcassets */; };
 		64607BA21E4B58D800B5D17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64607BA01E4B58D800B5D17E /* LaunchScreen.storyboard */; };
+		64607BAA1E4B595300B5D17E /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64607BA91E4B595300B5D17E /* CoreDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64607B9E1E4B58D800B5D17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64607BA11E4B58D800B5D17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64607BA31E4B58D800B5D17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64607BA91E4B595300B5D17E /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				64607B941E4B58D800B5D17E /* AppDelegate.swift */,
 				64607B961E4B58D800B5D17E /* ViewController.swift */,
+				64607BA91E4B595300B5D17E /* CoreDataController.swift */,
 				64607B981E4B58D800B5D17E /* Main.storyboard */,
 				64607B9E1E4B58D800B5D17E /* Assets.xcassets */,
 				64607BA01E4B58D800B5D17E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				64607B971E4B58D800B5D17E /* ViewController.swift in Sources */,
 				64607B9D1E4B58D800B5D17E /* ToDo.xcdatamodeld in Sources */,
+				64607BAA1E4B595300B5D17E /* CoreDataController.swift in Sources */,
 				64607B951E4B58D800B5D17E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
